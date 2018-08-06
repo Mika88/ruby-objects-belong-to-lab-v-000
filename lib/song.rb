@@ -4,4 +4,5 @@ class Song
     @title = title
     @artist = artist
   end
+  self.new.artist = Artist.new
 end
